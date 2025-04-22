@@ -1,11 +1,9 @@
 .seat {
     width: 44px;
     height: 44px;
-    background-color: brown;
     border-radius: 10px;
     border: rgb(99, 22, 22) 2px solid;
     font-size: 15px;
-    color: brown;
     display: flex;
     align-items: center;
     justify-content: center;

@@ -7,11 +7,12 @@ const InProgress = ({TaskList}) => {
         <div className="column">
             <h4>In Progress</h4>
             {
-                TaskList.map((task) => (
+                TaskList.map((task,index) => (
                     <>
                         {
                             task.status === "InProgress" &&
                             <TaskCard
+                                key={index}
                                 title={task.title}
                                 priority={task.priority}
                                 assignedTo={task.assignedTo}

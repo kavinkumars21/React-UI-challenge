@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import MovieBooking from './Screen/MovieBooking'
 import Task from './Screen/Task'
+import UserProfile from './Screen/UserProfile'
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <>
       <MovieBooking />
       <Task />
+      <UserProfile />
     </>
   )
 }
