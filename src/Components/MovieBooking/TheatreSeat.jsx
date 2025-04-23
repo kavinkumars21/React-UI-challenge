@@ -5,10 +5,9 @@ const TheatreSeat = ({ seats, status }) => {
 
   return (
     <div className='seat' style={{
-      backgroundColor: status === "available" ? "brown " : "green",
-      color : status === "available" ? "brown" : "green"
+      backgroundColor: status === "available" ? "gray " : "lightgray",
     }}>
-      <p>
+      <p className='seatNumber'>
         {seats}
       </p>
     </div>

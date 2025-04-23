@@ -3,12 +3,17 @@
     height: 44px;
     border-radius: 10px;
     border: rgb(99, 22, 22) 2px solid;
-    font-size: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.seat:hover {
+.seatNumber {
+    display: none;
+    font-size: 10px;
     color: white;
+}
+
+.seat:hover .seatNumber{
+    display: block;
 }
